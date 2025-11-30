@@ -63,8 +63,7 @@
             "distributed microservices with eureka service discovery and kafka pub/sub communication.",
             "implemented rs256 jwt per-tenant key management and a jwks endpoint for key discovery.",
             "integrated redis-backed token bucket filter for gateway rate limiting.",
-            "used resilience4j for circuit breaking and fallback behaviour.",
-            "streamed usage and login events through aop-based event annotations."
+            "used resilience4j for circuit breaking and fallback behaviour."
           ],
           "stack": [
             "spring boot",
