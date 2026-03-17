@@ -1,8 +1,8 @@
 {
   "personal_info": {
-    "name": "sairamkumar m",
-    "location": "bengaluru, india",
-    "role": "backend engineer",
+    "name": "Sairamkumar M",
+    "location": "Bengaluru, KA, India",
+    "role": "Backend Engineering",
     "contact": "sairamkumar.m@outlook.com",
     "renderIndex": 1
   },
@@ -14,40 +14,37 @@
     "renderIndex": 2
   },
   "bio": {
-    "content": "designed for failure, optimized for recovery.",
+    "content": "Design for failure, optimize for recovery.",
     "renderIndex": 3
   },
   "skills": {
     "categories": [
       {
-        "name": "languages",
-        "skills": ["java", "go", "python", "bash"]
+        "name": "Languages",
+        "skills": ["Java", "Go", "Python", "Bash"]
       },
       {
-        "name": "frameworks & tools",
-        "skills": ["spring boot", "git", "junit", "mockito"]
+        "name": "Frameworks, APIs, & Libs",
+        "skills": ["Spring Boot", "Gin", "REST", "GraphQL", "Junit", "Mockito"]
       },
       {
-        "name": "databases & infrastructure",
+        "name": "Databases & Infrastructure",
         "skills": [
-          "postgresql",
-          "mongodb",
-          "elasticsearch",
-          "redis",
-          "h2",
-          "kafka",
-          "docker",
-          "aws"
+          "PostgreSQL",
+          "MongoDB",
+          "Elasticsearch",
+          "Redis",
+          "Kafka",
+          "Docker",
+          "GCP"
         ]
       },
       {
         "name": "concepts",
         "skills": [
-          "oop",
-          "concurrency",
-          "microservices",
-          "event-driven architecture",
-          "rest apis"
+          "OOP",
+          "Concurrency",
+          "Microservices"
         ]
       }
     ],
@@ -57,21 +54,21 @@
     "projects": {
       "items": [
         {
-          "name": "accessguard",
-          "headline": "multi-tenant authentication & authorization platform",
+          "name": "Accessguard",
+          "headline": "Multi-tenant Authentication & Authorization Platform",
           "description": [
-            "distributed microservices with eureka service discovery and kafka pub/sub communication.",
-            "implemented rs256 jwt per-tenant key management and a jwks endpoint for key discovery.",
-            "integrated redis-backed token bucket filter for gateway rate limiting.",
-            "used resilience4j for circuit breaking and fallback behaviour."
+            "Distributed microservices with eureka service discovery and kafka pub/sub communication.",
+            "Implemented rs256 jwt per-tenant key management and a jwks endpoint for key discovery.",
+            "Integrated redis-backed token bucket filter for gateway rate limiting.",
+            "Utilized resilience4j for circuit breaking and fallback behaviour."
           ],
           "stack": [
-            "spring boot",
-            "kafka",
-            "postgresql",
-            "redis",
-            "resilience4j",
-            "elasticsearch"
+            "Spring Boot",
+            "Kafka",
+            "PostgreSQL",
+            "Redis",
+            "Resilience4j",
+            "Elasticsearch"
           ],
           "links": [
             {
@@ -81,15 +78,15 @@
           ]
         },
         {
-          "name": "gositemonitor",
-          "headline": "concurrent site uptime & latency monitor",
+          "name": "GoSiteMonitor",
+          "headline": "Concurrent Site Uptime & Latency Monitor",
           "description": [
-            "goroutine worker pool to monitor multiple urls concurrently with global token-based rate limiting.",
-            "periodic job scheduling and structured json logging for latency, outage, and session data.",
-            "aggregation pipeline to detect recurring outage patterns and generate insights.",
-            "multi-channel alerting through discord and email for real-time notifications."
+            "Goroutine worker pool to monitor multiple urls concurrently with global token-based rate limiting.",
+            "Periodic job scheduling and structured json logging for latency, outage, and session data.",
+            "Aggregation pipeline to detect recurring outage patterns and generate insights.",
+            "Multi-channel alerting through discord and email for real-time notifications."
           ],
-          "stack": ["go", "goroutines", "concurrency", "docker"],
+          "stack": ["Go", "Goroutines", "Concurrency", "Docker"],
           "links": [
             {
               "label": "github",
@@ -98,14 +95,14 @@
           ]
         },
         {
-          "name": "ansrs",
-          "headline": "command line spaced repetition system",
+          "name": "ANSRS",
+          "headline": "Command Line Spaced Repetition System",
           "description": [
-            "recall engine based on difficulty, recall count, and spaced repetition intervals.",
-            "implemented caching and embedded h2 database for persistence and archival.",
-            "fully test-driven development workflow using junit and mockito."
+            "Recall engine based on difficulty, recall count, and spaced repetition intervals.",
+            "Implemented caching and embedded h2 database for persistence and archival.",
+            "Fully test-driven development workflow using junit and mockito."
           ],
-          "stack": ["java", "maven", "h2", "junit", "mockito"],
+          "stack": ["Java", "Maven", "h2", "Junit", "Mockito"],
           "links": [
             {
               "label": "github",
@@ -119,14 +116,20 @@
     "experience": {
       "items": [
         {
-          "org": "wibblit (resumetweaker)",
-          "role": "co-founder & developer",
-          "duration": "sep 2024 - jun 2025",
+          "org": "Calix",
+          "role": "Graduate Engineering Trainee",
+          "duration": "Mar 2026 - Present",
+          "description": ["loading..."]
+        },
+        {
+          "org": "Wibblit (resumetweaker)",
+          "role": "Co-founder & Developer",
+          "duration": "Sep 2024 - Jun 2025",
           "description": [
-            "shipped an ai-powered resume to job-matching platform, managing product development end-to-end.",
-            "built a gmail pub/sub integrated microservice to ingest emails, detect job updates, and update per-user job trackers in real time.",
-            "implemented client-side pdf parsing and json extraction for consistent resume ingestion.",
-            "balanced system design with rapid iteration and delivered a working mvp to early testers."
+            "Shipped an ai-powered resume to job-matching platform, managing product development end-to-end.",
+            "Built a gmail pub/sub integrated microservice to ingest emails, detect job updates, and update per-user job trackers in real time.",
+            "Implemented client-side pdf parsing and json extraction for consistent resume ingestion.",
+            "Balanced system design with rapid iteration and delivered a working mvp to early testers."
           ]
         }
       ],
@@ -135,9 +138,9 @@
     "education": {
       "items": [
         {
-          "degree": "b.e. computer science",
-          "institution": "visvesvaraya technological university",
-          "duration": "dec 2021 - aug 2025",
+          "degree": "B.E. Computer Science",
+          "institution": "Visvesvaraya Technological University",
+          "duration": "Dec 2021 - Aug 2025",
           "grade": "9.24"
         }
       ],
