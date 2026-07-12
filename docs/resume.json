@@ -75,7 +75,7 @@
             "Aggregation pipeline to detect recurring outage patterns and generate insights.",
             "Multi-channel alerting through discord and email for real-time notifications."
           ],
-          "stack": ["Go", "Goroutines", "Concurrency", "Docker"],
+          "stack": ["Go", "Goroutines", "Docker"],
           "links": [
             {
               "label": "github",
