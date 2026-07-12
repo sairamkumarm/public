@@ -1,21 +1,18 @@
 {
   "personal_info": {
     "name": "Sairamkumar M",
-    "location": "Bengaluru, KA, India",
-    "role": "Backend Engineering",
+    "location": "Bengaluru, India",
+    "role": "Backend Engineer",
     "contact": "sairamkumar.m@outlook.com",
     "renderIndex": 1
   },
   "links": {
     "items": [
       { "label": "linkedin", "url": "https://www.linkedin.com/in/sairamkumarm" },
-      { "label": "github", "url": "https://github.com/sairamkumarm" }
+      { "label": "github", "url": "https://github.com/sairamkumarm" },
+      { "label": "email", "url":"mailto:sairamkumar.m@outlook.com"}
     ],
     "renderIndex": 2
-  },
-  "bio": {
-    "content": "Design for failure, optimize for recovery.",
-    "renderIndex": 3
   },
   "skills": {
     "categories": [
@@ -38,17 +35,9 @@
           "Docker",
           "GCP"
         ]
-      },
-      {
-        "name": "concepts",
-        "skills": [
-          "OOP",
-          "Concurrency",
-          "Microservices"
-        ]
       }
     ],
-    "renderIndex": 4
+    "renderIndex": 3
   },
   "sections": {
     "projects": {
@@ -111,7 +100,7 @@
           ]
         }
       ],
-      "renderIndex": 5
+      "renderIndex": 4
     },
     "experience": {
       "items": [
@@ -133,7 +122,7 @@
           ]
         }
       ],
-      "renderIndex": 6
+      "renderIndex": 5
     },
     "education": {
       "items": [
@@ -144,7 +133,7 @@
           "grade": "9.24"
         }
       ],
-      "renderIndex": 7
+      "renderIndex": 6
     }
   }
 }
